@@ -1,0 +1,8 @@
+setuptools
+jupyter
+pandas
+pytest
+matplotlib
+scikit-learn
+fbprophet
+tqdm
