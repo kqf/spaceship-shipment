@@ -2,10 +2,6 @@ import pytest
 from model.model import build_model
 
 
-def test_handles_model(data):
-    build_model()
-
-
 @pytest.mark.skip("Don't run this in CI")
 def test_main_model(data):
     X_tr, X_te = data
